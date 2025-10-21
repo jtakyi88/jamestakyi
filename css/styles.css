@@ -404,6 +404,33 @@ body {
     line-height: 1.6;
 }
 
+.book-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-cover {
+    width: 180px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.book-cover:hover {
+    transform: scale(1.05);
+}
+
+.book-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* CTA Section */
 .cta-section {
     text-align: center;
